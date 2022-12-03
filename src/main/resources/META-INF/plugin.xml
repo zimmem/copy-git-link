@@ -30,7 +30,7 @@
                 description="Copy a permalink as HTML to the clipboard"
                 icon="CopyGitHubLinkIcons.CopyGitLink"
         >
-            <keyboard-shortcut keymap="$default" first-keystroke="control alt L"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="control alt H"/>
             <keyboard-shortcut keymap="Mac OS X 10.5+" first-keystroke="control alt H"/>
             <add-to-group group-id="EditorPopupMenu" anchor="last"/>
         </action>

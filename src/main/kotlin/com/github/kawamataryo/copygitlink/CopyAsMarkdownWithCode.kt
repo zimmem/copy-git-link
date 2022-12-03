@@ -28,9 +28,10 @@ class CopyAsMarkdownWithCode : AnAction() {
 
             var vf:VirtualFile = e.getRequiredData(CommonDataKeys.VIRTUAL_FILE)
 
+            val ext = vf.name.split('.').last()
 
             val content = """$markdownLink
-                |```${vf.name.substring(vf.name.lastIndex)}
+                |```$ext
                 |$source
                 |```
             """.trimMargin()
